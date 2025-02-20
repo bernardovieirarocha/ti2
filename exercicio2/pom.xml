@@ -3,4 +3,11 @@
   <groupId>com.ti2</groupId>
   <artifactId>exercicio2</artifactId>
   <version>0.0.1-SNAPSHOT</version>
+  <dependencies>
+	  <dependency>
+            <groupId>org.postgresql</groupId>
+            <artifactId>postgresql</artifactId>
+            <version>42.7.5</version>
+        </dependency>
+  </dependencies>
 </project>
