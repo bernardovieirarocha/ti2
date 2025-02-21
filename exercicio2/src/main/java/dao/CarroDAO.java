@@ -24,7 +24,9 @@ public class CarroDAO extends dao {
             st.setString(1, carro.getMarca());
             st.setString(2, carro.getModelo());
             st.setInt(3, carro.getAno());
-
+            
+            
+            // Usando o SERIAL PK para o proprio banco lidar com aumentar os ids
             ResultSet rs = st.executeQuery();
             if (rs.next()) {
                 generatedId = rs.getInt(1); // Pega o ID gerado
