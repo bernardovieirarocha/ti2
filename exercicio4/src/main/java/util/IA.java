@@ -16,9 +16,9 @@ import com.azure.core.credential.AzureKeyCredential;
 
 public class IA {
 
-private String apiKey = "APIKEY AQUI";
-private String endpoint = "END POINT AQUI";
-    private String deploymentName = "chatgepete";
+    private String apiKey = "APIKEY AQUI";
+    private String endpoint = "END POINT AQUI";
+    private String deploymentName = "your model name";
     
 
     public void consultarIA(String prompt) {
